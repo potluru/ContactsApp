@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7D319151724B42F00BB699E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7D319141724B42F00BB699E /* UIKit.framework */; };
+		A7D319171724B42F00BB699E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7D319161724B42F00BB699E /* Foundation.framework */; };
+		A7D319191724B42F00BB699E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7D319181724B42F00BB699E /* CoreGraphics.framework */; };
+		A7D3191F1724B42F00BB699E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A7D3191D1724B42F00BB699E /* InfoPlist.strings */; };
+		A7D319211724B42F00BB699E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7D319201724B42F00BB699E /* main.m */; };
+		A7D319251724B42F00BB699E /* MainAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7D319241724B42F00BB699E /* MainAppDelegate.m */; };
+		A7D319271724B42F00BB699E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A7D319261724B42F00BB699E /* Default.png */; };
+		A7D319291724B42F00BB699E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7D319281724B42F00BB699E /* Default@2x.png */; };
+		A7D3192B1724B42F00BB699E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7D3192A1724B42F00BB699E /* Default-568h@2x.png */; };
+		A7D3192E1724B42F00BB699E /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7D3192C1724B42F00BB699E /* MainStoryboard_iPhone.storyboard */; };
+		A7D319311724B42F00BB699E /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7D3192F1724B42F00BB699E /* MainStoryboard_iPad.storyboard */; };
+		A7D319341724B42F00BB699E /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7D319331724B42F00BB699E /* MainViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A7D319111724B42F00BB699E /* SwamijiContacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwamijiContacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7D319141724B42F00BB699E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A7D319161724B42F00BB699E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A7D319181724B42F00BB699E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A7D3191C1724B42F00BB699E /* SwamijiContacts-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SwamijiContacts-Info.plist"; sourceTree = "<group>"; };
+		A7D3191E1724B42F00BB699E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A7D319201724B42F00BB699E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A7D319221724B42F00BB699E /* SwamijiContacts-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwamijiContacts-Prefix.pch"; sourceTree = "<group>"; };
+		A7D319231724B42F00BB699E /* MainAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainAppDelegate.h; sourceTree = "<group>"; };
+		A7D319241724B42F00BB699E /* MainAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainAppDelegate.m; sourceTree = "<group>"; };
+		A7D319261724B42F00BB699E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A7D319281724B42F00BB699E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A7D3192A1724B42F00BB699E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A7D3192D1724B42F00BB699E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		A7D319301724B42F00BB699E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		A7D319321724B42F00BB699E /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		A7D319331724B42F00BB699E /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7D3190E1724B42F00BB699E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7D319151724B42F00BB699E /* UIKit.framework in Frameworks */,
+				A7D319171724B42F00BB699E /* Foundation.framework in Frameworks */,
+				A7D319191724B42F00BB699E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7D319081724B42F00BB699E = {
+			isa = PBXGroup;
+			children = (
+				A7D3191A1724B42F00BB699E /* SwamijiContacts */,
+				A7D319131724B42F00BB699E /* Frameworks */,
+				A7D319121724B42F00BB699E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7D319121724B42F00BB699E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7D319111724B42F00BB699E /* SwamijiContacts.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7D319131724B42F00BB699E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7D319141724B42F00BB699E /* UIKit.framework */,
+				A7D319161724B42F00BB699E /* Foundation.framework */,
+				A7D319181724B42F00BB699E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A7D3191A1724B42F00BB699E /* SwamijiContacts */ = {
+			isa = PBXGroup;
+			children = (
+				A7D319231724B42F00BB699E /* MainAppDelegate.h */,
+				A7D319241724B42F00BB699E /* MainAppDelegate.m */,
+				A7D3192C1724B42F00BB699E /* MainStoryboard_iPhone.storyboard */,
+				A7D3192F1724B42F00BB699E /* MainStoryboard_iPad.storyboard */,
+				A7D319321724B42F00BB699E /* MainViewController.h */,
+				A7D319331724B42F00BB699E /* MainViewController.m */,
+				A7D3191B1724B42F00BB699E /* Supporting Files */,
+			);
+			path = SwamijiContacts;
+			sourceTree = "<group>";
+		};
+		A7D3191B1724B42F00BB699E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7D3191C1724B42F00BB699E /* SwamijiContacts-Info.plist */,
+				A7D3191D1724B42F00BB699E /* InfoPlist.strings */,
+				A7D319201724B42F00BB699E /* main.m */,
+				A7D319221724B42F00BB699E /* SwamijiContacts-Prefix.pch */,
+				A7D319261724B42F00BB699E /* Default.png */,
+				A7D319281724B42F00BB699E /* Default@2x.png */,
+				A7D3192A1724B42F00BB699E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7D319101724B42F00BB699E /* SwamijiContacts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7D319371724B42F00BB699E /* Build configuration list for PBXNativeTarget "SwamijiContacts" */;
+			buildPhases = (
+				A7D3190D1724B42F00BB699E /* Sources */,
+				A7D3190E1724B42F00BB699E /* Frameworks */,
+				A7D3190F1724B42F00BB699E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwamijiContacts;
+			productName = SwamijiContacts;
+			productReference = A7D319111724B42F00BB699E /* SwamijiContacts.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7D319091724B42F00BB699E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Main;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = DeviMandir;
+			};
+			buildConfigurationList = A7D3190C1724B42F00BB699E /* Build configuration list for PBXProject "SwamijiContacts" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A7D319081724B42F00BB699E;
+			productRefGroup = A7D319121724B42F00BB699E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7D319101724B42F00BB699E /* SwamijiContacts */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7D3190F1724B42F00BB699E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7D3191F1724B42F00BB699E /* InfoPlist.strings in Resources */,
+				A7D319271724B42F00BB699E /* Default.png in Resources */,
+				A7D319291724B42F00BB699E /* Default@2x.png in Resources */,
+				A7D3192B1724B42F00BB699E /* Default-568h@2x.png in Resources */,
+				A7D3192E1724B42F00BB699E /* MainStoryboard_iPhone.storyboard in Resources */,
+				A7D319311724B42F00BB699E /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7D3190D1724B42F00BB699E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7D319211724B42F00BB699E /* main.m in Sources */,
+				A7D319251724B42F00BB699E /* MainAppDelegate.m in Sources */,
+				A7D319341724B42F00BB699E /* MainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A7D3191D1724B42F00BB699E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7D3191E1724B42F00BB699E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A7D3192C1724B42F00BB699E /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7D3192D1724B42F00BB699E /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		A7D3192F1724B42F00BB699E /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7D319301724B42F00BB699E /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7D319351724B42F00BB699E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A7D319361724B42F00BB699E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7D319381724B42F00BB699E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SwamijiContacts/SwamijiContacts-Prefix.pch";
+				INFOPLIST_FILE = "SwamijiContacts/SwamijiContacts-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A7D319391724B42F00BB699E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SwamijiContacts/SwamijiContacts-Prefix.pch";
+				INFOPLIST_FILE = "SwamijiContacts/SwamijiContacts-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7D3190C1724B42F00BB699E /* Build configuration list for PBXProject "SwamijiContacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7D319351724B42F00BB699E /* Debug */,
+				A7D319361724B42F00BB699E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7D319371724B42F00BB699E /* Build configuration list for PBXNativeTarget "SwamijiContacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7D319381724B42F00BB699E /* Debug */,
+				A7D319391724B42F00BB699E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7D319091724B42F00BB699E /* Project object */;
+}
