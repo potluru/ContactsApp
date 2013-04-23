@@ -19,6 +19,8 @@
 		A7D3192E1724B42F00BB699E /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7D3192C1724B42F00BB699E /* MainStoryboard_iPhone.storyboard */; };
 		A7D319311724B42F00BB699E /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7D3192F1724B42F00BB699E /* MainStoryboard_iPad.storyboard */; };
 		A7D319341724B42F00BB699E /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7D319331724B42F00BB699E /* MainViewController.m */; };
+		A7D3193C1724B70800BB699E /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7D3193A1724B70800BB699E /* AddressBook.framework */; };
+		A7D3193D1724B70800BB699E /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7D3193B1724B70800BB699E /* AddressBookUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,8 @@
 		A7D319301724B42F00BB699E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		A7D319321724B42F00BB699E /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		A7D319331724B42F00BB699E /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		A7D3193A1724B70800BB699E /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		A7D3193B1724B70800BB699E /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +50,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7D3193C1724B70800BB699E /* AddressBook.framework in Frameworks */,
+				A7D3193D1724B70800BB699E /* AddressBookUI.framework in Frameworks */,
 				A7D319151724B42F00BB699E /* UIKit.framework in Frameworks */,
 				A7D319171724B42F00BB699E /* Foundation.framework in Frameworks */,
 				A7D319191724B42F00BB699E /* CoreGraphics.framework in Frameworks */,
@@ -58,6 +64,8 @@
 		A7D319081724B42F00BB699E = {
 			isa = PBXGroup;
 			children = (
+				A7D3193A1724B70800BB699E /* AddressBook.framework */,
+				A7D3193B1724B70800BB699E /* AddressBookUI.framework */,
 				A7D3191A1724B42F00BB699E /* SwamijiContacts */,
 				A7D319131724B42F00BB699E /* Frameworks */,
 				A7D319121724B42F00BB699E /* Products */,
@@ -273,6 +281,7 @@
 		A7D319381724B42F00BB699E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SwamijiContacts/SwamijiContacts-Prefix.pch";
 				INFOPLIST_FILE = "SwamijiContacts/SwamijiContacts-Info.plist";
@@ -284,6 +293,7 @@
 		A7D319391724B42F00BB699E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SwamijiContacts/SwamijiContacts-Prefix.pch";
 				INFOPLIST_FILE = "SwamijiContacts/SwamijiContacts-Info.plist";

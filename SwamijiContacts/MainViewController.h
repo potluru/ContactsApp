@@ -7,7 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AddressBookUI/AddressBookUI.h>
 
-@interface MainViewController : UIViewController
+@interface MainViewController : UIViewController <ABPeoplePickerNavigationControllerDelegate>
+
+@property (strong, nonatomic) IBOutlet UILabel *firstName;
+@property (strong, nonatomic) IBOutlet UILabel *phoneNumber;
+
+
+- (IBAction)showPicker:(id)sender;
+
+
 
 @end
